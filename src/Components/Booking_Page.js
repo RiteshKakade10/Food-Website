@@ -1,4 +1,6 @@
 import React from 'react';
+import { IoCallOutline } from "react-icons/io5";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Booking_Page() {
   return (
@@ -10,10 +12,10 @@ export default function Booking_Page() {
       <br/>
       <br/>
     <h4 className="font-medium text-black">We Are Provide All Fresh food's!!!</h4>
-    <h4>To Order Fresh Food Call On Given number!!!</h4>
+    <h4>For Order Fresh Food Call Or Whatsapp On this number!!!</h4>
     <br/>
     <br/>
-    <h2 className="font-extrabold">8626081096</h2>
+    <h2 className="font-extrabold">8626081096 <IoCallOutline /> <FaWhatsapp /></h2>
     </center>
     </div>
   );

@@ -9,6 +9,7 @@ import Home_Page from "./Components/Home_Page";
 import Cart from "./Components/Cart";
 import Registration from "./Components/Registration";
 import Booking_Page from "./Components/Booking_Page";
+import video from "./Components/video";
 
 export default class App extends Component {
   render() {
@@ -24,6 +25,7 @@ export default class App extends Component {
         <Route path="/testimonial" element={<Testimonial/>}></Route>
         <Route path="/cart" element={<Cart/>}></Route>
         <Route path="/book" element={<Booking_Page/>}></Route>
+        <Route path="/video" element={<video/>}></Route>
       </Routes>
       </BrowserRouter>
     );

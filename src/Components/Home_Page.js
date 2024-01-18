@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/home-banner-image.png";
 import { FiArrowRight } from "react-icons/fi";
@@ -6,6 +7,7 @@ import AboutBackground from "../Assets/about-background.png";
 import AboutBackgroundImage from "../Assets/about-background-image.png";
 import { BsFillPlayCircleFill } from "react-icons/bs";
 import Footer from "./Footer";
+
 
 const Home_Page = () => {
   
@@ -52,9 +54,9 @@ const Home_Page = () => {
         </p>
         <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>
-          <button className="watch-video-button">
+          <Link className="watch-video-button" to="/video">
             <BsFillPlayCircleFill /> Watch Video
-          </button>
+          </Link>
         </div>
       </div>
     </div>
